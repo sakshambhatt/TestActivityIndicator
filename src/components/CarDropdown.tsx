@@ -39,7 +39,7 @@ const CarDropdown = () => {
   }, []);
 
   return (
-    <View style={{gap: 50}}>
+    <View style={{gap: 250}}>
       <DropDownPicker
         loading={loading}
         ActivityIndicatorComponent={ActivityIndicatorCallback}
